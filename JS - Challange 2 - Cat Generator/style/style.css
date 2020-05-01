@@ -1,0 +1,33 @@
+.container {
+    /* borda */
+    border: 1px solid black;
+
+    /* centralizar */
+    margin: 0 auto; 
+    
+    /* alinhar o texto */
+    text-align: center;
+
+    /* ocupar 75% da tela */
+    width: 75%;
+}
+
+
+.flex-box-container {
+    /* todo item dentro vai virar um flex item */
+    display: flex;
+
+    border: 1px solid black;
+
+    /* impedir que os itens saiam do flex box, wrap vai criar um novo espaço em baixo para adicionar os itens que forem sair  */
+    flex-wrap: wrap;
+
+    /* colocar um espaço entre as imagens */
+    justify-content: space-around;
+
+}
+
+.flex-box-container img {
+    padding: 10px;
+    margin: 10px;
+}

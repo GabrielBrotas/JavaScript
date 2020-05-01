@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Challange 3: Pedra Papel Tesoura</h2>
+        <h3>Escolha um!</h3>
+
+        <div class="flex-box-container" id="flex-box-div">
+
+            <!-- parametro (this) vai ser o objeto que nos clicamos, entao vai ser diferente a resposta para cada escolha -->
+            <img id="pedra" src="pedra.PNG" onclick="pptGame(this)">
+
+            <img id="papel" src="papel.PNG" onclick="pptGame(this)"> 
+
+            <img id="tesoura" src="tesoura.PNG" onclick="pptGame(this)">
+
+        </div>
+
+        
+        <button class="btn btn-primary" onclick="reset()">Reset</button>
+
+    </div>
+
+    
+    <!-- pegar as funcos do js -->
+    <script src="javascript/base.js"></script>
+</body>
+</html>

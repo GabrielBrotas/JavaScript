@@ -1,0 +1,40 @@
+.container {
+    /* borda */
+    border: 1px solid black;
+
+    /* centralizar */
+    margin: 0 auto; 
+    
+    /* alinhar o texto */
+    text-align: center;
+
+    /* ocupar 75% da tela */
+    width: 75%;
+
+    padding-bottom: 15px;
+}
+
+
+.flex-box-container {
+    /* todo item dentro vai virar um flex item */
+    display: flex;
+
+    border: 1px solid black;
+
+    /* impedir que os itens saiam do flex box, wrap vai criar um novo espaço em baixo para adicionar os itens que forem sair  */
+    flex-wrap: wrap;
+
+    /* colocar um espaço entre as imagens */
+    justify-content: space-around;
+
+}
+
+.flex-box-container img:hover {
+    /* vai adicionar borda ao passar o cursor em cima da imagem */
+    box-shadow: 0px 10px 58px rgba(37, 50, 233, 1);
+    cursor: pointer;
+}
+
+.container button {
+    margin-top: 10px;
+}
