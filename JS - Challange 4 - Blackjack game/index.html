@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Challange 4: Blackjack Game</h2>
+    
+        <h3>
+            <span id="blackjack-result">Let's Play</span>
+        </h3>
+
+        <!-- linha da board do game -->
+        <div id='flex-box-board'>
+
+            <div id='your-box'>
+
+                <h2>
+                    Voce: <span id='your-blackjack-result'>0</span>
+                </h2>
+
+            </div>
+
+            <div id='adversario-box'>
+
+                <h2>
+                    Adversario: <span id='adversario-blackjack-result'>0</span>
+                </h2>
+
+            </div>
+
+        </div>
+
+        <!-- linha dos botoes hit, stand, restart -->
+        <div id='flex-box-buttons'>
+
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button" style="color: white;">Stand</button>
+                <button class="btn-lg btn-danger" id="blackjack-restart-button">Restart</button>
+            </div>
+
+        </div>
+
+        <!-- linha onde vai ficar a tabela dos scores -->
+        <div id="flex-box-table">
+
+            <table>
+
+                <tr>
+                    <th>Vitorias</th>
+                    <th>Derrotas</th>
+                    <th>Empates</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id='vitorias'>0</span>
+                    </td>
+                    
+                    <td>
+                        <span id='derrotas'>0</span>
+                    </td>
+
+                    <td>
+                        <span id='empates'>0</span>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>  
+    
+    <!-- pegar as funcos do js -->
+    <script src="javascript/base.js"></script>
+</body>
+</html>

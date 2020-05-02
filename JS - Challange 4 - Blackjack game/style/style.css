@@ -1,0 +1,66 @@
+.container {
+    /* borda */
+    border: 1px solid black;
+
+    /* centralizar */
+    margin: 0 auto; 
+    
+    /* alinhar o texto */
+    text-align: center;
+
+    /* ocupar 75% da tela */
+    width: 75%;
+}
+
+
+#flex-box-board, #flex-box-buttons, #flex-box-table {
+    /* todo item dentro vai virar um flex item */
+    display: flex;
+
+    padding: 10px;
+
+    border: 1px solid black;
+
+    /* impedir que os itens saiam do flex box, wrap vai criar um novo espaço em baixo para adicionar os itens que forem sair  */
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    /* colocar um espaço entre as imagens */
+    justify-content: space-around;
+
+}
+
+#flex-box-board {
+    /* url da imagem e colocar ela no centro */
+
+    background: url('images/blackjack-table.jpg') center; 
+    color: white;  
+}
+
+#flex-box-buttons {
+    background: url('images/blackjack-buttons.jpg') center;
+    background-size: contain;
+    color: w;
+}
+
+
+#flex-box-board div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+
+    /* vai fazer as 2 div dentro da board consumirem todo espaço com o mesmo tamanho cada uma. */
+    flex: 1;
+}
+
+#flex-box-board img {
+    width: 25%;
+    padding: 5px;
+}
+
+table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
