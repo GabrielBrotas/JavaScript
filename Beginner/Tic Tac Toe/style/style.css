@@ -1,0 +1,24 @@
+section {
+    text-align: center;
+}
+
+.board {
+    margin: 50px auto;
+    width: 306px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    cursor: pointer;
+}
+
+.board img {
+    width: 92px;
+
+
+}
+
+.jogador img {
+    width: 30px;
+}
+
+
+

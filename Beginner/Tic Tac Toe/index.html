@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe game</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/board.css">
+</head>
+<body>
+
+    <section>
+        <h1>Tic tac toe Game</h1>
+        <div id='jogador' class="jogador"> <span id='turno'>Turno de:</span> <img src="imagens/x.JPG"></div>
+        <div id='board' class="board">
+            <div id="1" class="pri" onclick="Play(1)"></div>
+            <div id="2" class="seg" onclick="Play(2)"></div>
+            <div id="3" class="ter" onclick="Play(3)"></div>
+            <div id="4" class="qua" onclick="Play(4)"></div>
+            <div id="5" class="qui" onclick="Play(5)"></div>
+            <div id="6" class="sex" onclick="Play(6)"></div>
+            <div id="7" class="set" onclick="Play(7)"></div>
+            <div id="8" class="oit" onclick="Play(8)"></div>
+            <div id="9" class="non" onclick="Play(9)"></div>
+        </div>
+
+        <h2 class="status"></h2>
+        
+        <button class="restart" onclick="restart()">Restart Game</button>
+
+    </section>
+    
+    <script src="function/function.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+Tic Tac Toe Game (jogo da velha)
+
+Steps:
+
+1 - Criar uma board - OK
+
+2 - Ação ao clicar em um quadrante - OK
+
+3 - Mostrar o simbolo do jogador ao clicar - OK
+
+4 - Trocar de jogador ao fazer um movimento  - OK
+
+5 - Funcao para checar posicao se está disponível - OK
+
+6 - Criar condiçoes caso vencer ou empatar - OK
+
+7 - Botao para reniciar o game. - OK
+
