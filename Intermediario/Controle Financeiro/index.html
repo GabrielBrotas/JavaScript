@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <title>Controle financeiro</title>
+
+</head>
+<body>
+
+    <hr
+
+    <!-- seçao onde vai ficar os dados inicias-->
+    <section>
+    
+        <div class="background">
+
+            <div class="container">
+
+            
+                <div class="titulo">Dados diponiveis do mês de Maio</div>
+                
+                <div class="saldo"><span>-&nbsp;</span>0,00</div>
+                
+                <div class="positivo-box">
+                    <div class="positivo-texto">Entrada</div>
+                    <div class="positivo-valor">+&nbsp;<span>0,00</span></div>
+                </div>
+                
+                <div class="negativo-box">
+                    <div class="negativo-texto">Saida</div>
+                    <div class="negativo-valor">-&nbsp;<span>0,00</span></div>
+                    <div class="negativo-porcentagem"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- secao de inserir dados -->
+    <section class="section-options">
+
+        <div class="background-options">
+
+            <!-- form para escolher se é adicionar ou remover -->
+            <form class="check-box">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                    +
+                    </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    -
+                </label>
+                </div>
+            </form>
+
+            <!-- form da descricao -->
+            <div id="input-box-descricao" class="input-group input-group-sm mb-3">
+                <input type="text" class="form-control" aria-label="Sizing example input" required placeholder="Adicionar descrição..." aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <!-- div da quantitade -->
+            <div class="input-box-valor">
+                <input id="input-valor" type="number" class="form-control" min="1" aria-label="Dollar amount (with dot and two decimal places)">
+                <div id="simbolo-valor" class="input-group-append">
+                  <span class="input-group-text">$</span>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+
+    </section>
+
+    <div class="botao-content">
+        <div class="botao-adicionar-valor">
+            <button type="button" class="btn btn-primary">Inserir item</button>
+        </div>
+    </div>
+
+    <section class="itens-content-background">
+
+        <div class="itens-content">
+
+            <div class="box-entrada">
+                <div class="titulo-entrada">Entradas</div>
+                <div class="entrada-descricao">descricao</div>
+                <div class="itens-entrada">
+
+                </div>
+            </div>
+
+            <div class="box-saida">
+                <div class="titulo-saida">Saidas</div>
+                <div class="itens-saida"></div>
+            </div>
+
+        </div>
+
+       
+
+    </section>
+
+    
+
+
+
+    
+</body>
+</html>

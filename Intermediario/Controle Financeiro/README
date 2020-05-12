@@ -1,0 +1,15 @@
+Applicativo para controle financeiro.
+
+este aplicativo vai permitir fazer login na sua conta para controlar a entrada e saida de dados e vai deixar o historico gravado em um banco de dados
+
+Steps:
+
+1 - criar menu
+
+2 - criar conteudo html geral (front-end) de todas as abas
+
+3 - criar funcoes para controlar as açoes
+
+4 - adicionar rotas pelo flask
+
+
